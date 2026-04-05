@@ -1,65 +1,94 @@
-import Image from "next/image";
+// import { ScrollworkBorder } from "./ornaments";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen flex items-center justify-center px-4 py-14">
+      <div className="w-full max-w-[480px]">
+        {/* Unicorn crest */}
+        <div className="text-center mb-8">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/unicorn-dark.png"
+            alt="Jeffersonian crest"
+            className="inline-block w-[100px] h-auto dark:invert"
+          />
+        </div>
+
+        {/* Ornamental border */}
+        {/* <div className="mb-8">
+          <ScrollworkBorder />
+        </div> */}
+
+        {/* Title */}
+        <h1
+          className="text-center tracking-[0.2em] text-[17px] font-medium mb-10"
+          style={{ fontFamily: "var(--font-libre-caslon), serif" }}
+        >
+          <span className="text-[26px]">J</span>
+          <span style={{ fontVariant: "small-caps" }}>effersonian</span>
+        </h1>
+
+        {/* Body */}
+        <div
+          className="space-y-5 text-[13.5px] leading-[1.85] text-[var(--text)] text-justify"
+          style={{ fontFamily: "var(--font-eb-garamond), serif" }}
+        >
+          <p>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/j-dropcap.svg"
+              alt="J"
+              className="float-left w-[60px] h-[60px] mr-3 mt-1 dark:invert"
+            />
+            EFFERSONIAN is a private intellectual and social institution in New
+            York City that convenes a small number of outlier thinkers and
+            builders for conversation and community. It draws on three
+            precedents: the Jeffersonian dinner, the 1920s Viennese coffee
+            house, and the contemporary peer network of Prod. Together, these
+            influences shape an institution that combines structured salons
+            built around consequential questions with a broader culture of
+            dynamism and pragmatic synthesis.
+          </p>
+
+          <p>
+            Through intentional discussion, cross-disciplinary exposure, and a
+            culture that values candor, rigor, and mutual respect, Jeffersonian
+            revives a tradition that once played a quiet but critical role in
+            intellectual and civic life — small groups of committed individuals
+            meeting regularly to sharpen ideas, challenge assumptions, and
+            better understand the world and their place in it. The atmosphere is
+            deliberately anachronistic: intimate, composed, and intellectually
+            alive, rewarding depth, independence of mind, and seriousness of
+            purpose.
+          </p>
+
+          <p>
+            New York has no shortage of private clubs. But most function as
+            hedonistic signaling environments — beautiful spaces optimized for
+            &ldquo;status&rdquo; and debauchery, rather than sustained
+            intellectual life. There exists an inefficiency: many outlier
+            curious and intellectually serious people have no physical place in
+            the city designed specifically for them. Jeffersonian exists to fill
+            that space — an institution organized around conversation, ideas,
+            and those exceptional people drawn to them.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+
+        {/* Epigraph */}
+        <p
+          className="text-center text-[12.5px] italic text-[var(--text)] tracking-wide mt-12"
+          style={{ fontFamily: "var(--font-cormorant), serif" }}
+        >
+          Deus ventum praebet, homo vela tolli debet.
+        </p>
+
+        <p
+          className="text-center text-[10px] tracking-[0.3em] text-[var(--text)] uppercase mt-10"
+          style={{ fontFamily: "var(--font-cormorant), serif" }}
+        >
+          New York
+        </p>
+      </div>
+    </main>
   );
 }
