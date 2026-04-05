@@ -21,11 +21,10 @@ export default function Home() {
 
         {/* Title */}
         <h1
-          className="text-center tracking-[0.2em] text-[17px] font-medium mb-10"
-          style={{ fontFamily: 'var(--font-libre-caslon), serif' }}
+          className="text-center text-[17px] mb-10"
+          style={{ fontFamily: 'var(--font-eb-garamond), serif', fontVariant: 'small-caps' }}
         >
-          <span className="text-[22px]">J</span>
-          <span style={{ fontVariant: 'small-caps' }}>effersonian</span>
+          <span className="text-[26px]">J</span>effersonian
         </h1>
 
         {/* Body */}
