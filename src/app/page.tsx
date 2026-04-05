@@ -27,7 +27,7 @@ export default function Home() {
             fontVariant: 'small-caps',
           }}
         >
-          <span className="text-[24px]">J</span>effersonian
+          <span className="">J</span>effersonian
         </h1>
 
         {/* Body */}

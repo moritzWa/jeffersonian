@@ -36,6 +36,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${ebGaramond.variable} ${cormorant.variable} ${libreCaslon.variable} antialiased`}
     >
       <body>{children}</body>
