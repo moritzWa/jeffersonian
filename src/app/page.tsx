@@ -22,16 +22,16 @@ export default function Home() {
         {/* Title */}
         <h1
           className="text-center tracking-[0.2em] text-[17px] font-medium mb-10"
-          style={{ fontFamily: "var(--font-libre-caslon), serif" }}
+          style={{ fontFamily: 'var(--font-libre-caslon), serif' }}
         >
-          <span className="text-[26px]">J</span>
-          <span style={{ fontVariant: "small-caps" }}>effersonian</span>
+          <span className="text-[22px]">J</span>
+          <span style={{ fontVariant: 'small-caps' }}>effersonian</span>
         </h1>
 
         {/* Body */}
         <div
           className="space-y-5 text-[13.5px] leading-[1.85] text-[var(--text)] text-justify"
-          style={{ fontFamily: "var(--font-eb-garamond), serif" }}
+          style={{ fontFamily: 'var(--font-eb-garamond), serif' }}
         >
           <p>
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -77,14 +77,14 @@ export default function Home() {
         {/* Epigraph */}
         <p
           className="text-center text-[12.5px] italic text-[var(--text)] tracking-wide mt-12"
-          style={{ fontFamily: "var(--font-cormorant), serif" }}
+          style={{ fontFamily: 'var(--font-cormorant), serif' }}
         >
           Deus ventum praebet, homo vela tolli debet.
         </p>
 
         <p
           className="text-center text-[10px] tracking-[0.3em] text-[var(--text)] uppercase mt-10"
-          style={{ fontFamily: "var(--font-cormorant), serif" }}
+          style={{ fontFamily: 'var(--font-cormorant), serif' }}
         >
           New York
         </p>
