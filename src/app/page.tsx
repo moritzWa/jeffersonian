@@ -40,7 +40,7 @@ export default function Home() {
             <img
               src="/j-dropcap.svg"
               alt="J"
-              className="float-left w-[60px] h-[60px] mr-3 mt-1 dark:invert"
+              className="float-left w-[75px] h-[65px] mr-3 mt-[5px] dark:invert"
             />
             EFFERSONIAN is a private intellectual and social institution in New
             York City that convenes a small number of outlier thinkers and
