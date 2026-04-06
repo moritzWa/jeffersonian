@@ -10,7 +10,13 @@ export default function Home() {
           <img
             src="/unicorn-dark.png"
             alt="Jeffersonian crest"
-            className="inline-block w-[100px] h-auto dark:invert"
+            className="inline-block w-[100px] h-auto dark:hidden"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/unicorn-white.png"
+            alt="Jeffersonian crest"
+            className="hidden w-[100px] h-auto dark:inline-block"
           />
         </div>
 
