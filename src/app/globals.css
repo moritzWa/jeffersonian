@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #F4F5F0;
-  --ink: #071F2C;
-  --text: #071F2C;
+  --bg: #FFFFFF;
+  --ink: #000000;
+  --text: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #071F2C;
-    --ink: #F4F5F0;
-    --text: #F4F5F0;
+    --bg: #000000;
+    --ink: #FFFFFF;
+    --text: #FFFFFF;
   }
 }
 
